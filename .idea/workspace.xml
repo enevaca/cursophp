@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cf79231-78f5-4b44-b4d6-fe525b8e0583" name="Default" comment="Operadores de Asignación">
-      <change beforePath="" afterPath="$PROJECT_DIR$/databases/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/databases/delete.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/databases/list.php" afterPath="$PROJECT_DIR$/databases/list.php" />
     </list>
@@ -18,8 +18,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="198">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <marker date="1517791699946" expanded="true" signature="38:57" ph="..." />
               </folding>
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/update.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="719">
@@ -57,12 +57,24 @@
       <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+            <state relative-caret-position="619">
+              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
-                <marker date="1519595512105" expanded="true" signature="62:81" ph="SELECT * FRO... users" />
-                <marker date="1519595512105" expanded="true" signature="1139:1159" ph="..." />
-                <marker date="1519595512105" expanded="true" signature="1139:1171" ph="..." />
+                <marker date="1519598192158" expanded="true" signature="62:81" ph="SELECT * FRO... users" />
+                <marker date="1519598192158" expanded="true" signature="1167:1187" ph="..." />
+                <marker date="1519598192158" expanded="true" signature="1167:1199" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/databases/delete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding>
+                <marker date="1519598413919" expanded="true" signature="63:93" ph="DELETE FROM users... " />
               </folding>
             </state>
           </provider>
@@ -155,8 +167,9 @@
         <option value="$PROJECT_DIR$/databases/config.php" />
         <option value="$PROJECT_DIR$/databases/add.php" />
         <option value="$PROJECT_DIR$/databases/index.php" />
-        <option value="$PROJECT_DIR$/databases/list.php" />
         <option value="$PROJECT_DIR$/databases/update.php" />
+        <option value="$PROJECT_DIR$/databases/list.php" />
+        <option value="$PROJECT_DIR$/databases/delete.php" />
       </list>
     </option>
   </component>
@@ -250,7 +263,7 @@
       <workItem from="1517252291369" duration="8515000" />
       <workItem from="1517686469288" duration="10524000" />
       <workItem from="1517773205891" duration="9670000" />
-      <workItem from="1519593804135" duration="3224000" />
+      <workItem from="1519593804135" duration="3651000" />
     </task>
     <task id="LOCAL-00001" summary="Operadores de Asignación">
       <created>1517256338328</created>
@@ -263,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31933000" />
+    <option name="totallyTimeSpent" value="32360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="293" y="57" width="1853" height="1048" extended-state="6" />
@@ -304,13 +317,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/variables/array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variables/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -634,28 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databases/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <marker date="1517791699946" expanded="true" signature="38:57" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databases/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="33" column="62" lean-forward="false" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <marker date="1519595512105" expanded="true" signature="62:81" ph="SELECT * FRO... users" />
-            <marker date="1519595512105" expanded="true" signature="1139:1159" ph="..." />
-            <marker date="1519595512105" expanded="true" signature="1139:1171" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/databases/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -675,6 +659,38 @@
             <marker date="1519596874361" expanded="true" signature="482:511" ph="SELECT * FRO... users" />
             <marker date="1519596874361" expanded="true" signature="482:514" ph="SELECT * FRO... users" />
             <marker date="1519596874361" expanded="true" signature="754:773" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1517791699946" expanded="true" signature="38:57" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <marker date="1519598192158" expanded="true" signature="62:81" ph="SELECT * FRO... users" />
+            <marker date="1519598192158" expanded="true" signature="1167:1187" ph="..." />
+            <marker date="1519598192158" expanded="true" signature="1167:1199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1519598413919" expanded="true" signature="63:93" ph="DELETE FROM users... " />
           </folding>
         </state>
       </provider>
